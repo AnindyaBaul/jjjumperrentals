@@ -1,0 +1,13 @@
+<div class="carousel-item active d-flex align-items-center justify-content-between h-100">
+              <div class="w-50">
+                <h1>
+                  JUMPERS
+                </h1>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, harum adipisci. Nisi ut omnis, repellendus asperiores voluptatem beatae, eveniet excepturi, tenetur obcaecati quaerat fugit expedita.
+                </p>
+              </div>
+              <div>
+                <img src="./images/house-2.png" height="400" width="400" alt="">
+              </div>
+            </div>

@@ -1,0 +1,107 @@
+body {
+    font-family: 'Poppins', sans-serif!important;
+    background-color: #F5F5F5;
+    position: relative !important;
+}
+
+/* :root{
+    
+} */
+p{
+    margin: 0!important;
+}
+h1{
+    margin: 0!important;
+    padding: 0!important;
+}
+html {
+    scroll-behavior: smooth!important;
+}
+/* header-start */
+
+nav{
+    background-color:#008C99;
+}
+/* .navbar{
+    
+} */
+.nav-2{
+    background-color: white!important;
+    border-bottom: 1px solid lightgray;
+    height: auto;
+}
+.nav-2 .search-btn{
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.nav-2 input{
+    border-radius: 30px;
+  outline: 0!important;
+  caret-color: #008C99!important;
+}
+.nav-2 input:focus{
+   border: 4px solid #008C99;
+   box-shadow: 0!important;
+ 
+}
+.nav-2 ul li{
+    margin-inline: 20px;
+}
+.nav-2 ul li>a:hover{
+    color: #008C99!important;
+    cursor: pointer;
+}
+.nav-1{
+    height: 60px;
+    /* border: 1px solid red; */
+}
+.banner{
+    height: 652px;
+    background: url(./images/banner.jpg) no-repeat;
+    background-size: cover;
+}
+.carousel-item h1{
+    font-size: 80px;
+}
+/* header-end */
+
+/* main start */
+main{
+    margin-block: 250px;
+}
+/* main end */
+.card img{
+   
+    height: 200px;
+}
+.card:hover{
+    background-color: #008C99;
+    color: white;
+}
+
+@media only screen and (max-width:688px){
+    .banner-cont{
+        width: 100%!important;
+    }
+    .carousel-item>div{
+        flex-direction: column;
+        justify-content: space-around!important;
+        text-align: center;
+    }
+    .carousel-item img{
+        height: 200px;
+        width: 200px;
+    }
+    .carousel-item h1{
+        text-align: center;
+       font-size: 45px;
+    }
+    .w-50.text-light{
+        width: 100%!important;
+    }
+    .nav-1 strong{
+        display: none;
+    }
+}
